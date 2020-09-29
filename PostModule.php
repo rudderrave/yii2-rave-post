@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @link http://www.yee-soft.com/
+ * @link http://www.rave-soft.com/
  * @copyright Copyright (c) 2015 Taras Makitra
  * @license http://www.apache.org/licenses/LICENSE-2.0
  */
@@ -11,7 +11,7 @@ namespace ravesoft\post;
 use Yii;
 
 /**
- * Post Module For Yee CMS
+ * Post Module For Rave CMS
  *
  * @author Taras Makitra <makitrataras@gmail.com>
  */
@@ -189,13 +189,13 @@ class PostModule extends \yii\base\Module
 
         if (empty($this->viewList)) {
             $this->viewList = [
-                'post' => Yii::t('yee', 'Post view')
+                'post' => Yii::t('rave', 'Post view')
             ];
         }
 
         if (empty($this->layoutList)) {
             $this->layoutList = [
-                'main' => Yii::t('yee', 'Main layout')
+                'main' => Yii::t('rave', 'Main layout')
             ];
         }
 

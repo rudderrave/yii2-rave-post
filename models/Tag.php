@@ -92,13 +92,13 @@ class Tag extends ActiveRecord implements OwnerAccess
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('yee', 'ID'),
-            'slug' => Yii::t('yee', 'Slug'),
-            'title' => Yii::t('yee', 'Title'),
-            'created_by' => Yii::t('yee', 'Created By'),
-            'updated_by' => Yii::t('yee', 'Updated By'),
-            'created_at' => Yii::t('yee', 'Created'),
-            'updated_at' => Yii::t('yee', 'Updated'),
+            'id' => Yii::t('rave', 'ID'),
+            'slug' => Yii::t('rave', 'Slug'),
+            'title' => Yii::t('rave', 'Title'),
+            'created_by' => Yii::t('rave', 'Created By'),
+            'updated_by' => Yii::t('rave', 'Updated By'),
+            'created_at' => Yii::t('rave', 'Created'),
+            'updated_at' => Yii::t('rave', 'Updated'),
         ];
     }
 

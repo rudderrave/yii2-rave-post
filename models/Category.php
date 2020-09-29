@@ -102,15 +102,15 @@ class Category extends ActiveRecord implements OwnerAccess
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('yee', 'ID'),
-            'slug' => Yii::t('yee', 'Slug'),
-            'title' => Yii::t('yee', 'Title'),
-            'visible' => Yii::t('yee', 'Visible'),
-            'description' => Yii::t('yee', 'Description'),
-            'created_by' => Yii::t('yee', 'Created By'),
-            'updated_by' => Yii::t('yee', 'Updated By'),
-            'created_at' => Yii::t('yee', 'Created'),
-            'updated_at' => Yii::t('yee', 'Updated'),
+            'id' => Yii::t('rave', 'ID'),
+            'slug' => Yii::t('rave', 'Slug'),
+            'title' => Yii::t('rave', 'Title'),
+            'visible' => Yii::t('rave', 'Visible'),
+            'description' => Yii::t('rave', 'Description'),
+            'created_by' => Yii::t('rave', 'Created By'),
+            'updated_by' => Yii::t('rave', 'Updated By'),
+            'created_at' => Yii::t('rave', 'Created'),
+            'updated_at' => Yii::t('rave', 'Updated'),
         ];
     }
 

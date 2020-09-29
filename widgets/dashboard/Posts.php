@@ -58,8 +58,8 @@ class Posts extends DashboardWidget
     public function getDefaultOptions()
     {
         return [
-            ['label' => Yii::t('yee', 'Published'), 'icon' => 'ok', 'filterWhere' => ['status' => Post::STATUS_PUBLISHED]],
-            ['label' => Yii::t('yee', 'Pending'), 'icon' => 'search', 'filterWhere' => ['status' => Post::STATUS_PENDING]],
+            ['label' => Yii::t('rave', 'Published'), 'icon' => 'ok', 'filterWhere' => ['status' => Post::STATUS_PUBLISHED]],
+            ['label' => Yii::t('rave', 'Pending'), 'icon' => 'search', 'filterWhere' => ['status' => Post::STATUS_PENDING]],
         ];
     }
 }

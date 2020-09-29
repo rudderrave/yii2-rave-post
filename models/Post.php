@@ -114,23 +114,23 @@ class Post extends ActiveRecord implements OwnerAccess
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('yee', 'ID'),
-            'created_by' => Yii::t('yee', 'Author'),
-            'updated_by' => Yii::t('yee', 'Updated By'),
-            'slug' => Yii::t('yee', 'Slug'),
-            'view' => Yii::t('yee', 'View'),
-            'layout' => Yii::t('yee', 'Layout'),
-            'title' => Yii::t('yee', 'Title'),
-            'status' => Yii::t('yee', 'Status'),
-            'comment_status' => Yii::t('yee', 'Comment Status'),
-            'content' => Yii::t('yee', 'Content'),
-            'category_id' => Yii::t('yee', 'Category'),
-            'thumbnail' => Yii::t('yee/post', 'Thumbnail'),
-            'published_at' => Yii::t('yee', 'Published'),
-            'created_at' => Yii::t('yee', 'Created'),
-            'updated_at' => Yii::t('yee', 'Updated'),
-            'revision' => Yii::t('yee', 'Revision'),
-            'tagValues' => Yii::t('yee', 'Tags'),
+            'id' => Yii::t('rave', 'ID'),
+            'created_by' => Yii::t('rave', 'Author'),
+            'updated_by' => Yii::t('rave', 'Updated By'),
+            'slug' => Yii::t('rave', 'Slug'),
+            'view' => Yii::t('rave', 'View'),
+            'layout' => Yii::t('rave', 'Layout'),
+            'title' => Yii::t('rave', 'Title'),
+            'status' => Yii::t('rave', 'Status'),
+            'comment_status' => Yii::t('rave', 'Comment Status'),
+            'content' => Yii::t('rave', 'Content'),
+            'category_id' => Yii::t('rave', 'Category'),
+            'thumbnail' => Yii::t('rave/post', 'Thumbnail'),
+            'published_at' => Yii::t('rave', 'Published'),
+            'created_at' => Yii::t('rave', 'Created'),
+            'updated_at' => Yii::t('rave', 'Updated'),
+            'revision' => Yii::t('rave', 'Revision'),
+            'tagValues' => Yii::t('rave', 'Tags'),
         ];
     }
 
@@ -297,8 +297,8 @@ class Post extends ActiveRecord implements OwnerAccess
     public static function getStatusList()
     {
         return [
-            self::STATUS_PENDING => Yii::t('yee', 'Pending'),
-            self::STATUS_PUBLISHED => Yii::t('yee', 'Published'),
+            self::STATUS_PENDING => Yii::t('rave', 'Pending'),
+            self::STATUS_PUBLISHED => Yii::t('rave', 'Published'),
         ];
     }
 
@@ -309,8 +309,8 @@ class Post extends ActiveRecord implements OwnerAccess
     public static function getStatusOptionsList()
     {
         return [
-            [self::STATUS_PENDING, Yii::t('yee', 'Pending'), 'default'],
-            [self::STATUS_PUBLISHED, Yii::t('yee', 'Published'), 'primary']
+            [self::STATUS_PENDING, Yii::t('rave', 'Pending'), 'default'],
+            [self::STATUS_PUBLISHED, Yii::t('rave', 'Published'), 'primary']
         ];
     }
 
@@ -321,8 +321,8 @@ class Post extends ActiveRecord implements OwnerAccess
     public static function getCommentStatusList()
     {
         return [
-            self::COMMENT_STATUS_OPEN => Yii::t('yee', 'Open'),
-            self::COMMENT_STATUS_CLOSED => Yii::t('yee', 'Closed')
+            self::COMMENT_STATUS_OPEN => Yii::t('rave', 'Open'),
+            self::COMMENT_STATUS_CLOSED => Yii::t('rave', 'Closed')
         ];
     }
 

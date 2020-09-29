@@ -5,10 +5,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model ravesoft\post\models\Tag */
 
-$this->title = Yii::t('yee/post', 'Create Tag');
-$this->params['breadcrumbs'][] = ['label' => Yii::t('yee/post', 'Posts'), 'url' => ['default/index']];
-$this->params['breadcrumbs'][] = ['label' => Yii::t('yee/post', 'Tags'), 'url' => ['index']];
-$this->params['breadcrumbs'][] = Yii::t('yee', 'Create');
+$this->title = Yii::t('rave/post', 'Create Tag');
+$this->params['breadcrumbs'][] = ['label' => Yii::t('rave/post', 'Posts'), 'url' => ['default/index']];
+$this->params['breadcrumbs'][] = ['label' => Yii::t('rave/post', 'Tags'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = Yii::t('rave', 'Create');
 ?>
 
 <div class="post-tag-create">

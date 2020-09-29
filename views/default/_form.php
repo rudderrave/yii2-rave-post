@@ -79,11 +79,11 @@ use ravesoft\post\models\Tag;
 
                             <div class="form-group">
                                 <?php if ($model->isNewRecord): ?>
-                                    <?= Html::submitButton(Yii::t('yee', 'Create'), ['class' => 'btn btn-primary']) ?>
-                                    <?= Html::a(Yii::t('yee', 'Cancel'), ['index'], ['class' => 'btn btn-default']) ?>
+                                    <?= Html::submitButton(Yii::t('rave', 'Create'), ['class' => 'btn btn-primary']) ?>
+                                    <?= Html::a(Yii::t('rave', 'Cancel'), ['index'], ['class' => 'btn btn-default']) ?>
                                 <?php else: ?>
-                                    <?= Html::submitButton(Yii::t('yee', 'Save'), ['class' => 'btn btn-primary']) ?>
-                                    <?= Html::a(Yii::t('yee', 'Delete'), ['delete', 'id' => $model->id], [
+                                    <?= Html::submitButton(Yii::t('rave', 'Save'), ['class' => 'btn btn-primary']) ?>
+                                    <?= Html::a(Yii::t('rave', 'Delete'), ['delete', 'id' => $model->id], [
                                         'class' => 'btn btn-default',
                                         'data' => [
                                             'confirm' => Yii::t('yii', 'Are you sure you want to delete this item?'),
@@ -127,7 +127,7 @@ use ravesoft\post\models\Tag;
                             <?= $form->field($model, 'thumbnail')->widget(ravesoft\media\widgets\FileInput::className(), [
                                 'name' => 'image',
                                 'buttonTag' => 'button',
-                                'buttonName' => Yii::t('yee', 'Browse'),
+                                'buttonName' => Yii::t('rave', 'Browse'),
                                 'buttonOptions' => ['class' => 'btn btn-default btn-file-input'],
                                 'options' => ['class' => 'form-control'],
                                 'template' => '<div class="post-thumbnail thumbnail"></div><div class="input-group">{input}<span class="input-group-btn">{button}</span></div>',

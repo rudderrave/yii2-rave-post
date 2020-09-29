@@ -8,7 +8,7 @@ use yii\helpers\HtmlPurifier;
 
     <div class="pull-<?= $position ?> col-lg-<?= $width ?> widget-height-<?= $height ?>">
         <div class="panel panel-default dw-widget">
-            <div class="panel-heading"><?= Yii::t('yee/post', 'Posts Activity') ?></div>
+            <div class="panel-heading"><?= Yii::t('rave/post', 'Posts Activity') ?></div>
             <div class="panel-body">
 
                 <?php if (count($recentPosts)): ?>
@@ -45,7 +45,7 @@ use yii\helpers\HtmlPurifier;
                     </div>
 
                 <?php else: ?>
-                    <h4><em><?= Yii::t('yee/post', 'No posts found.') ?></em></h4>
+                    <h4><em><?= Yii::t('rave/post', 'No posts found.') ?></em></h4>
                 <?php endif; ?>
 
             </div>
